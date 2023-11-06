@@ -1,3 +1,6 @@
+//mostly does the job, could be refactored into simpler functions
+
+
 function attachEvents() {
     const button = document.getElementById('submit').addEventListener('click', onSubmit);
     const forecastDiv = document.getElementById('forecast');
